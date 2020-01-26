@@ -31,7 +31,8 @@ GET /api/v1/stats
  }
 
 }<br/>
-Caching
+
+**Caching**
 
 Add a layer of caching to the reverse proxy with a configurable timeout. 
 The NextBus feed service is sensitive to traffic and doesn’t hesitate to block if 
@@ -43,12 +44,12 @@ Use a common datastore to ensure that all instances of the proxy expose the same
 For example, all application instances could write the stats to mysql (or a db of your choice), 
 running as container, 
 ensuring that each instance exposes the same statistics.<br/>
-Load Balance
+**Load Balance**
 
 Support Load Balance of the http requests
-Security<br/>
+**Security**<br/>
 
 Support Authentication or HTTPS support for the front end
-Log requests<br/>
+**Log requests**<br/>
 
 Store the logs for monitoring

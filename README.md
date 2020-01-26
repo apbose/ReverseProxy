@@ -46,10 +46,10 @@ running as container,
 ensuring that each instance exposes the same statistics.<br/>
 **Load Balance**
 
-Support Load Balance of the http requests
-**Security**<br/>
+Support Load Balance of the http requests<br/>
+**Security**
 
-Support Authentication or HTTPS support for the front end
-**Log requests**<br/>
+Support Authentication or HTTPS support for the front end<br/>
+**Log requests**
 
 Store the logs for monitoring
